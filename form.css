@@ -1,0 +1,83 @@
+
+
+body{
+background-color: rgb(243, 162, 62);
+justify-content: center;
+align-items: center;
+margin-left: 35%;
+margin-top: 10%;
+justify-self: center;
+}
+.wrapper{
+    max-width: 300px;
+    -moz-box-align: center;
+    width: 500px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgb(235, 184, 161);
+    box-shadow: rgb(228, 147, 204);
+    border:  solid black;
+}
+.header{
+    font-size: 30px;
+    margin: auto;
+    font: weight 450px; ;
+    text-align: center;
+    text-shadow: cornflowerblue;
+}
+.headertext{
+    text-align:center ;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: capitalize;
+
+}
+.name{
+    margin-left: 10%;
+    font-weight: 300;
+    font-style: italic;
+    font-style: oblique;
+    
+}
+.email{
+    font-style: italic;
+    margin-left: 10%;
+
+}
+.submit{
+    text-align: center;
+}
+.password{
+margin-left: 10%;
+}
+.repeat{
+margin-left: 10%;
+}
+input{
+    border-radius: 10%;
+    line-height: 10px;
+    
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 10%
+
+    
+}
+
+input[ type=text]{
+    background-image: url(Pictures/face.png);
+    border: none;
+    border-bottom: 2px solid black;
+}
+input[ type=email]{
+    border: none;
+    border-bottom: 2px solid black;
+}
+input[ type=password]{
+    border: none;
+    border-bottom: 2px solid black;
+}
+input[ type=repeat password]{
+    border: none;
+    border-bottom: 2px solid black;
+}
